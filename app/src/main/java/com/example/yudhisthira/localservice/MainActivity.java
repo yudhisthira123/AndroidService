@@ -51,9 +51,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         _serviceIntent = new Intent(getApplicationContext(), MyService.class);
         _serviceIntent.putExtra(Intent.EXTRA_TEXT, "");
-
-        Intent.createChooser(_serviceIntent, "");
-
     }
 
     @Override
