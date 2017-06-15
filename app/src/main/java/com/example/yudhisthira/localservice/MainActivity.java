@@ -13,6 +13,8 @@ import android.widget.TextView;
 
 /**
  * By Yudhisthira
+ *
+ * Date
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
